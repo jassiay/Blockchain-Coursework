@@ -1,0 +1,35 @@
+now a 10-item linked list will be created
+A --> B --> C --> D --> E --> F --> G --> H --> I --> J
+
+
+now K will be inserted as the 3rd node (counting from 0, or the 4th node if counting from 1)
+A --> B --> C --> K --> D --> E --> F --> G --> H --> I --> J
+
+
+now the 1st node (B) (counting from 0) will be deleted.
+A --> C --> K --> D --> E --> F --> G --> H --> I --> J
+
+
+now the linked list will be reversed.
+J --> I --> H --> G --> F --> E --> D --> K --> C --> A
+
+
+now L will be added to the head of the list
+L --> J --> I --> H --> G --> F --> E --> D --> K --> C --> A
+
+
+now M will be added to the tail of the list
+L --> J --> I --> H --> G --> F --> E --> D --> K --> C --> A --> M
+
+
+now the original linked list ls is deepcopied to ls2
+L --> J --> I --> H --> G --> F --> E --> D --> K --> C --> A --> M
+
+
+now if the original linked list ls is changed (adding a node N), the deepcopied ls2 won't change
+L --> J --> I --> H --> G --> F --> E --> N --> D --> K --> C --> A --> M
+L --> J --> I --> H --> G --> F --> E --> D --> K --> C --> A --> M
+
+
+now the original linked list is cleared
+this list is empty!
